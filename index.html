@@ -3,111 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Surgery Umbrella</title>
+    <title>Global Surgery Umbrealla Main Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
+    <header id="header">
         <div class="container">
-            <img src="logo.png" alt="Global Surgery Umbrella Logo" class="logo">
-            <nav>
+            <img id="header-img" src="/images/logo.jpg" alt="Global Surgery Umbrella Logo" class="logo">
+            <nav id="nav-bar">
                 <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#mission">Our Mission</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#get-involved">Get Involved</a></li>
-                    <li><a href="#news">News & Resources</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#mission" class="nav-link">Our Mission</a></li>
+                    <li><a href="#projects" class="nav-link">Our Projects</a></li>
+                    <li><a href="#get-involved" class="nav-link">Get Involved</a></li>
+                    <li><a href="#donations" class="nav-link">Donations</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
                 </ul>
             </nav>
             <a href="#donate" class="cta-button">Donate Now</a>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1>Connecting the World Through Safe and Accessible Surgery</h1>
-            <p>Improving surgical care worldwide for those who need it most.</p>
+            <p>Imnproving surgical care worldwide for those who need it the most</p>
             <a href="#mission" class="cta-button">Learn More</a>
             <a href="#get-involved" class="cta-button secondary">Get Involved</a>
+            <a href="#donate" class="cta-button">Donate Now</a>
         </div>
     </section>
-
-    <!-- Our Mission Section -->
-    <section id="mission" class="mission">
-        <div class="container">
-            <h2>Our Mission</h2>
-            <p>Global Surgery Umbrella is dedicated to providing safe and accessible surgical care worldwide, focusing on patient-centered values and global health equity.</p>
-            <!-- Add more content or visuals here -->
-        </div>
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Global Surgery Umbrella was formed in 2022 to connect healthcare proffesionals from all 
+            around the world with the common goal of making surgical care more accessible 
+        </p>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Our Projects</h2>
-            <p>Highlighting key projects that have made a significant impact on global surgery accessibility.</p>
-            <a href="#" class="cta-button">Explore All Projects</a>
-        </div>
+    <section id="mission" class="container">
+        <h2>About Us</h2>
+        <p>Global Surgery Umbrella was formed in 2022 to connect healthcare proffesionals from all 
+            around the world with the common goal of making surgical care more accessible 
+        </p>
     </section>
-
-    <!-- Get Involved Section -->
-    <section id="get-involved" class="get-involved">
-        <div class="container">
-            <h2>Get Involved</h2>
-            <p>Join us in making a difference. There are many ways you can help.</p>
-            <a href="#" class="cta-button">Join Our Team</a>
-            <a href="#" class="cta-button secondary">Partner with Us</a>
-        </div>
+    <section id="projects" class="container">
+        <h2>Ongoing Projects</h2>
+        <p>Our ongoing projects include global outreach projects in Africa, Pax-Amazonia project and others. 
+        </p>
+        <video id="video">
+            <source src="www.youtube.com">
+        </video>
     </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>What Our Partners Say</h2>
-            <p>"Global Surgery Umbrella has been instrumental in bringing surgical care to those who need it most." - Dr. Jane Doe</p>
-            <!-- Add more testimonials here -->
-        </div>
+    <section id="get-involved" class="container">
+        <h2>Ways to Get Involved</h2>
+        <p>
+            <ul>
+                <li>Donations: None of our projects could be possible without our donors</li>
+                <li>Spread the word: You can help our cause by making our mission more visible across the globe</li>
+                <li>Be a part of our team: If you are determined to put in the hard work we would be happy to see you amongst us</li>
+            </ul>
+        </p>
     </section>
-
-    <!-- News & Resources Section -->
-    <section id="news" class="news">
-        <div class="container">
-            <h2>News & Resources</h2>
-            <p>Stay updated with the latest news and resources on global surgery.</p>
-            <a href="#" class="cta-button">Read More</a>
-        </div>
+    <section id="donations" class="conatainer">
+        <h2>Ways to Give</h2>
+        <p>You can decide to donate our cause in general or choose to support the ongoing projects listed below</p>
+        <ul>
+            <li>Donate to our cause in general</li>
+            <li>Donate to our project in Tanzania</li>
+            <li>Donate to Pax-Amazonia</li>
+            <li>Donate to our surgeons</li>
+        </ul>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
-            <p>Email: info@globalsurgeryumbrella.org | Phone: +123 456 7890</p>
-        </div>
+    <section id="contact" class="container">
+        <p>Feel free to contact us if you have further questions</p>
+        <h2>Contact Us!</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
     </section>
-
-    <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Global Surgery Umbrella. All Rights Reserved.</p>
-            <nav>
-                <ul>
-                    <li><a href="#privacy">Privacy Policy</a></li>
-                    <li><a href="#terms">Terms of Service</a></li>
-                </ul>
-            </nav>
+        <p>2022 Global Surgery Umbrella. All Rights Reserved</p>
         </div>
     </footer>
-
 </body>
 </html>
